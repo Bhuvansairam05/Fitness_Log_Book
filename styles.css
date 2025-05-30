@@ -1,0 +1,98 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin-top:40px;
+    margin-left:40px;
+}
+#addExercise{
+    height:40px;
+    width:130px;
+    font-size: 20px;
+    background-color: #17a6d9;
+    color: white;
+    border:1px solid #17a6d9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#addExerciseForm{
+    height: 400px;
+    width:430px;
+    margin-left:400px;
+    padding-right:20px;
+    padding-left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.hidden{
+    display:none !important;
+}
+.formInput{
+    height:25px;
+    font-size:22px;
+}
+#saveExercise{
+    width:150px;
+    background-color: #17a6d9;
+    color:white;
+    border:1px solid #17a6d9;
+    border-radius: 5px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.headingRow{
+    height:35px;
+    font-size:25px;
+}
+td{
+    height: 50px;
+    font-size:22px;
+    padding-left:10px;
+}
+#exName{
+    width:250px;
+}
+#d{
+    width: 150px;
+}
+#cB{
+    width: 250px;
+}
+#de{
+    width: 150px;
+}
+#a{
+    width:350px;
+}
+.update{
+    height:40px;
+    width:125px;
+    background-color: #17a6d9;
+    color: white;
+    font-size: 22px;
+    border:1px solid #17a6d9;
+    border-radius:5px;
+}
+.save{
+    height:40px;
+    width:125px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    border:1px solid green;
+    border-radius:5px;
+}
+.delete{
+    height:40px;
+    width:125px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border:1px solid red;
+    border-radius:5px;
+}

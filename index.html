@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness LogBook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align="center">Fitness Log Book</h1><br><br><br>
+    <input id="addExercise" type="button" value="Add Exercise"></input>
+    <form id="addExerciseForm" class="hidden">
+        <input class="formInput" type="text" id="ExerciseName" placeholder="Enter Exercise name">
+        <input class="formInput" type="text" id="Duration" placeholder="Enter Duration in minutes">
+        <input class="formInput" type="text" id="CaloriesBurned" placeholder="Enter Calories Burned">
+        <input class="formInput" type="date" id="Date" placeholder="Enter Date">
+        <input class="formInput" type="button" id="saveExercise" value="Add Exercise">
+    </form>
+    <br><br>
+    <table>
+        <thead>
+            <tr class="headingRow">
+                <th id="exName">Exercise Name</th>
+                <th id="d">Duration</th>
+                <th id="cB">Calories Burned</th>
+                <th id="de">Date</th>
+                <th id="a">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="fitnessTableBody"></tbody>
+    </table><br><br><br><br>
+</body>
+<script src="index.js"></script>
+</html>
